@@ -1,8 +1,6 @@
 let present;
 let total_attend;
 
-console.log("svbjdbcvjknfdkj oklbjdlk");
-
 document.getElementById("presentsubmit").onclick = function () {
     present = document.getElementById("aaya").value;
 
