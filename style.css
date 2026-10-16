@@ -1,11 +1,28 @@
+.box {
+    border: 2px solid black;
+    padding: 15px;
+    width: auto;
+    background-color: rgb(202, 197, 200);
+    height: auto;
+}
+
 #h1 {
 
     background-color: rgb(253, 237, 17);
     display: inline;
 }
-#headline{
 
-    
-      background-color: rgb(188, 235, 79);
-      display: inline;
+#headline {
+
+
+    background-color: rgb(188, 235, 79);
+    display: inline;
+}
+
+.box-fill{
+    border: 2px solid black;
+padding:15px ;
+height:auto;
+width:auto;
+background-color: rgb(179, 223, 59);
 }
