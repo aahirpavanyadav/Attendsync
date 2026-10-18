@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markscalci</title>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        body {
+            background-color: rgb(77, 224, 114);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+
+
+        <h2>Add Subject</h2>
+
+        <dialog>
+            <h3>+Add Student</h3>
+            <form>
+                <h4>Enter Below Details </h4>
+                <lable>Name</lable>
+                <input maxlength="100">
+                <label>Age</label>
+                <input type="number" minlength="1" maxlength="100">
+                <lable>Course</lable>
+                <input minlength="2">
+                <button>Submit</button>
+                <button>Cancell</button>
+
+            </form>
+
+
+        </dialog>
+
+
+
+
+
+
+    </div>
+    <div>
+        <label for="create_subject_name">Enter Sub name u want to create</label>
+        <input minlength="1" maxlength="100" id="create_subject_name">
+        <button id="submit_new_subname">Submit</button>
+        <h2 id="ur_enter_newsub"></h2>
+
+        <label for="marks_new_sub">Enter Marks of new sub </label>
+        <input id="marks_new_sub" type="number" >
+        <button id="submit_new_submarks" >Submit</button>
+        <h2 id="ur_enter_newmarks"></h2>
+        <br>
+        <button id="create_newsub">Create</button>
+    </div>
+
+
+
+    <div class="marks">
+        <h2>(CGPA,% marks as shown below)</h2>
+        <p>
+        <table border="1">
+            <tr>
+                <th>Marks</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>0-10</td>
+                <td>1</td>
+
+            </tr>
+            <tr>
+                <td>11-20</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>21-30</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>31-40</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>41-50</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>51-60</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>61-70</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>71-80</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>81-90</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>91-100</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+
+
+
+
+
+        </p>
+    </div>
+    <footer>
+        <a href="/index.html">Home</a>
+        <p>@copyright all right reserved 2026</p>
+        <a href="test.html">For Advance Feature Testing</a>
+        <br>
+        <br>
+        <a href="pg/Markscalci.html">Marks Calci</a>
+    </footer>
+    <script src="markscalci.js"></script>
+</body>
+
+
+</html>

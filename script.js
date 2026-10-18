@@ -1,5 +1,7 @@
 let present;
 let total_attend;
+let student;
+
 
 document.getElementById("presentsubmit").onclick = function () {
     present = document.getElementById("aaya").value;
